@@ -5,8 +5,13 @@ import {bootstrapApplication} from '@angular/platform-browser';
   selector: 'app-root',
   standalone: true,
   template: `
-    Hello world!
+    <h1>Hello World!</h1>
+    <a href="http://adserasinghe.github.io">adserasinghe</a>
   `,
+  styles:`
+  :host {
+    color: #a144eb;
+  }`,
 })
 export class PlaygroundComponent {}
 
