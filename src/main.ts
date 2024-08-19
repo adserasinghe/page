@@ -11,6 +11,7 @@ import {bootstrapApplication} from '@angular/platform-browser';
   styles:`
   :host {
     color: #a144eb;
+    font-family:sans-serif;
   }`,
 })
 export class PlaygroundComponent {}
